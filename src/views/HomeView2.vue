@@ -1,8 +1,8 @@
 <template>
     <div class="homepage">
-<!--        <div class="brand">-->
-<!--            AI<img src="@/assets/logo/4.png">火眼-->
-<!--        </div>-->
+        <!--        <div class="brand">-->
+        <!--            AI<img src="@/assets/logo/4.png">火眼-->
+        <!--        </div>-->
         <div class="vast__title">
             <div class="description">
                 <span>
@@ -87,12 +87,12 @@
                         将光标放在图片上以查看指引
                     </span>
                 <div class="button">
-                    <div>
+                    <a href="https://smallpic.dludora.xyz/static/release.zip">
                         下载桌面端
                         <n-icon size="1.5rem" style="margin-left: .3rem">
                             <Download/>
                         </n-icon>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div class="steps">
@@ -119,9 +119,7 @@
                         <LogoWechat/>
                     </n-icon>
                     <div class="introduce">
-                        资质图像检测<a>在线进行</a>，<br>
-                        <a>无需搭建</a>庞大的资质证明后端数据库，<br>
-                        仅根据数字图像进行<a>轻量化检测</a>
+                        微信端部署、随时随地、图像检测
                     </div>
                 </div>
                 <div class="step feature3">
@@ -163,7 +161,6 @@ span {
     text-align: center;
   }
 }
-
 
 
 .homepage {

@@ -49,4 +49,20 @@
       color: $font-red;
     }
   }
+
+  & a {
+    display: flex;
+    width: 11rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid $white;
+      color: $font-red;
+    }
+  }
 }

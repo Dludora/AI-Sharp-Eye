@@ -173,6 +173,8 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     grid-column-gap: calc((100% - 32rem * 2) / 2);
+    grid-row-gap: 3rem;
+
 
     @media screen and (max-width: 769px) {
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
